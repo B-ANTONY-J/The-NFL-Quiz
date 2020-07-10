@@ -1,5 +1,3 @@
-# The-NFL-Quiz
-
 Project Title
 The NFL Quiz!
 
