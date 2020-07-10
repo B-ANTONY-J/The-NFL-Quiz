@@ -30,11 +30,13 @@ function setTimer() {
         secondsLeft--;
         timerElement.textContent = "Time: " + secondsLeft;
 
-        if (secondsLeft === 0 || questionNumber === questions.length) {
+        if (secondsLeft <= 0 || questionNumber === questions.length) {
             clearInterval(countdown);
             setTimeout(displayScore, 500);
+        } else {
+          //do thing
         }
-    }, 1000);
+      }, 1000);
 }
 
 function makeQuestions() {
