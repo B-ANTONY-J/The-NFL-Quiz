@@ -34,10 +34,10 @@ function setTimer() {
             clearInterval(countdown);
             setTimeout(displayScore, 500);
         } else {
-          //do thing
+          //do nothing
         }
       }, 1000);
-}
+    }
 
 function makeQuestions() {
     questionNumber++;
