@@ -17,20 +17,11 @@ It's Fun - Replay again!!!
 Prerequisites
 Willingness for fun and football
 
-
 Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+Google, W3 schools, gitHub, stackflow, youtube, codeacademey, developer.mozilla.org and eloquent.javascript.net
 
 Authors
 Antony Jones - Initial work 
-See Also Google and Stackkflow
 
 Acknowledgments
-Thanks To all who Love coding and are willing to Guide us along our eway
+Thanks To all who Love coding and are willing to Guide us along our away!!!
