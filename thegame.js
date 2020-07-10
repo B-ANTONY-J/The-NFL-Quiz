@@ -24,20 +24,20 @@ function startTimer() {
     makeQuestions();
 }
 
+
 function setTimer() {
+  var countdown = setInterval(function () {
+    secondsLeft--;
+    timerElement.textContent = "Time: " + secondsLeft;
 
-    var countdown = setInterval(function () {
-        secondsLeft--;
-        timerElement.textContent = "Time: " + secondsLeft;
-
-        if (secondsLeft <= 0 || questionNumber === questions.length) {
-            clearInterval(countdown);
-            setTimeout(displayScore, 500);
-        } else {
-          //do nothing
-        }
-      }, 1000);
+    if (secondsLeft <= 0 || questionNumber === questions.length) {
+      clearInterval(countdown);
+      setTimeout(displayScore, 500);
+    } else {
+      //do nothing
     }
+  }, 1000);
+}
 
 function makeQuestions() {
     questionNumber++;
